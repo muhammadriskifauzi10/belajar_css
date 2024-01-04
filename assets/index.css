@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: brown;
+    padding: 10px;
+}
+
+nav h5 {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.hero, .description {
+    text-align: center;
+}
+
+.hero img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.hero h6 {
+    font-size: 24px;
+}
+
+.description {
+    margin-top: 30px;
+    padding: 0px 200px;
+    font-size: 1.2rem;
+}
+
+.link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+a:hover {
+    background-color: black;
+}
