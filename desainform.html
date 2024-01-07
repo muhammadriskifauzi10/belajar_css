@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS Dasar | Form</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        h3 {
+            margin: 10px 0px;
+            text-align: center;
+        }
+
+        form {
+            background-color: rgb(240, 240, 240);
+            width: 50%;
+            margin: auto;
+            padding: 18px;
+            border-radius: 6px;
+            box-shadow: 8px 8px 10px -4px dodgerblue;
+        }
+
+        form div {
+            width: 100%;
+            text-align: center;
+        }
+
+        form label {
+            text-align: left;
+            display: block;
+        }
+
+        form input {
+            width: 100%;
+            padding: 4px 0px;
+            border: 2px solid dodgerblue;
+            outline: none;
+            border-radius: 6px;
+            transition: .8s;
+        }
+
+        form input:focus {
+            border-color: black;
+        }
+
+        form button {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 6px;
+            background-color: dodgerblue;
+            color: white;
+            padding: 4px 0px;
+            border: none;
+        }
+        
+        form button:hover {
+            background-color: black;
+            transition: .8s;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Login</h3>
+
+    <div class="card">
+        <form>
+            <!-- Email -->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" class="email" id="email">
+            </div>
+
+            <!-- Password -->
+            <div>
+                <label for="password">Password</label>
+                <input type="password" class="password" id="password">
+            </div>
+
+            <!-- Submit -->
+            <div>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
